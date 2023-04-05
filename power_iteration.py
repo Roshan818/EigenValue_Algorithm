@@ -51,12 +51,12 @@ def power_iteration(matrix, num_iterations=1000, epsilon=1e-8):
 
 # Example usage:
 
-# Define the input matrix
-matrix = np.array([[4, 2], [1, 3]])
+# # Define the input matrix
+# matrix = np.array([[4, 2], [1, 3]])
 
-# Call the power_iteration function to compute the eigenvalue and eigenvector
-eigenvalue, eigenvector = power_iteration(matrix)
+# # Call the power_iteration function to compute the eigenvalue and eigenvector
+# eigenvalue, eigenvector = power_iteration(matrix)
 
-# Print the results
-print("Dominant eigenvalue:", eigenvalue)
-print("Eigenvector corresponding to the dominant eigenvalue:", eigenvector)
+# # Print the results
+# print("Dominant eigenvalue:", eigenvalue)
+# print("Eigenvector corresponding to the dominant eigenvalue:", eigenvector)

@@ -41,17 +41,17 @@ def qr_algorithm(A, max_iterations=100, tol=1e-6):
 
     return eigenvalues, eigenvectors
 
-# Example usage:
+# # Example usage:
 
-# Define the input matrix
-A = np.array([[4, 2], [1, 3]])
+# # Define the input matrix
+# A = np.array([[4, 2], [1, 3]])
 
-# Call the qr_algorithm function to compute the eigenvalues and eigenvectors
-eigenvalues, eigenvectors = qr_algorithm(A)
+# # Call the qr_algorithm function to compute the eigenvalues and eigenvectors
+# eigenvalues, eigenvectors = qr_algorithm(A)
 
-# Print the results
-print("Eigenvalues:", eigenvalues)
-print("Eigenvectors:")
-for i in range(len(eigenvalues)):
-    print("Eigenvalue:", eigenvalues[i])
-    print("Eigenvector:", eigenvectors[:, i])
+# # Print the results
+# print("Eigenvalues:", eigenvalues)
+# print("Eigenvectors:")
+# for i in range(len(eigenvalues)):
+#     print("Eigenvalue:", eigenvalues[i])
+#     print("Eigenvector:", eigenvectors[:, i])

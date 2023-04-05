@@ -44,11 +44,11 @@ def rayleigh_quotient_iteration(A, max_iterations=100, tol=1e-6):
 # Example usage:
 
 # Define the input matrix
-A = np.array([[4, 2], [1, 3]])
+# A = np.array([[4, 2], [1, 3]])
 
-# Call the rayleigh_quotient_iteration function to compute the eigenvalue and eigenvector
-eigenvalue, eigenvector = rayleigh_quotient_iteration(A)
+# # Call the rayleigh_quotient_iteration function to compute the eigenvalue and eigenvector
+# eigenvalue, eigenvector = rayleigh_quotient_iteration(A)
 
-# Print the results
-print("Eigenvalue:", eigenvalue)
-print("Eigenvector:", eigenvector)
+# # Print the results
+# print("Eigenvalue:", eigenvalue)
+# print("Eigenvector:", eigenvector)

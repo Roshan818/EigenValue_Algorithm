@@ -14,7 +14,7 @@ def main():
     eigenvalue, eigenvector = power_iteration(matrix)
 
     # Print the results
-    print("Power Iteration Results")
+    print("\nPower Iteration Results")
     print("Eigenvalue:", eigenvalue)
     print("Eigenvector:", eigenvector)
 
@@ -22,7 +22,7 @@ def main():
     eigenvalue, eigenvector = rayleigh_quotient_iteration(matrix)
 
     # Print the results
-    print("Rayleigh Quotient Iteration Results")
+    print("\nRayleigh Quotient Iteration Results")
     print("Eigenvalue:", eigenvalue)
     print("Eigenvector:", eigenvector)
 
@@ -30,7 +30,7 @@ def main():
     eigenvalue, eigenvector = jacobi_eigenvalue_algorithm(matrix)
 
     # Print the results
-    print("Jacobi Eigenvalue Algorithm Results")
+    print("\nJacobi Eigenvalue Algorithm Results")
     print("Eigenvalue:", eigenvalue)
     print("Eigenvector:", eigenvector)
 
@@ -38,7 +38,7 @@ def main():
     eigenvalue, eigenvector = qr_algorithm(matrix)
 
     # Print the results
-    print("QR Algorithm Results")
+    print("\nQR Algorithm Results")
     print("Eigenvalue:", eigenvalue)
     print("Eigenvector:", eigenvector)
 

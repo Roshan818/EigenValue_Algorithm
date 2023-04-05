@@ -56,17 +56,17 @@ def jacobi_eigenvalue_algorithm(A, max_iterations=100, tol=1e-6):
 
 # Example usage:
 
-# Define the input symmetric matrix
-A = np.array([[4, 2, 1],
-              [2, 5, 3],
-              [1, 3, 6]])
+# # Define the input symmetric matrix
+# A = np.array([[4, 2, 1],
+#               [2, 5, 3],
+#               [1, 3, 6]])
 
-# Call the jacobi_eigenvalue_algorithm function to compute the eigenvalues and eigenvectors
-eigenvalues, eigenvectors = jacobi_eigenvalue_algorithm(A)
+# # Call the jacobi_eigenvalue_algorithm function to compute the eigenvalues and eigenvectors
+# eigenvalues, eigenvectors = jacobi_eigenvalue_algorithm(A)
 
-# Print the results
-print("Eigenvalues:", eigenvalues)
-print("Eigenvectors:")
-for i in range(len(eigenvalues)):
-    print("Eigenvalue:", eigenvalues[i])
-    print("Eigenvector:", eigenvectors[:, i])
+# # Print the results
+# print("Eigenvalues:", eigenvalues)
+# print("Eigenvectors:")
+# for i in range(len(eigenvalues)):
+#     print("Eigenvalue:", eigenvalues[i])
+#     print("Eigenvector:", eigenvectors[:, i])

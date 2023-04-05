@@ -7,3 +7,11 @@ The output of the algorithm is the eigenvalue and eigenvector of the matrix.
 ## Output:
 
 <img src="Output\result.png">
+
+## References:
+Wikipedia: 
+- [https://en.wikipedia.org/wiki/Power_iteration](https://en.wikipedia.org/wiki/Power_iteration)
+- [https://en.wikipedia.org/wiki/Eigenvalue_algorithm](https://en.wikipedia.org/wiki/Eigenvalue_algorithm)
+- [https://en.wikipedia.org/wiki/QR_algorithm](https://en.wikipedia.org/wiki/QR_algorithm)
+- [https://en.wikipedia.org/wiki/Rayleigh_quotient_iteration](https://en.wikipedia.org/wiki/Rayleigh_quotient_iteration)
+- [https://en.wikipedia.org/wiki/Jacobi_eigenvalue_algorithm](https://en.wikipedia.org/wiki/Jacobi_eigenvalue_algorithm)
